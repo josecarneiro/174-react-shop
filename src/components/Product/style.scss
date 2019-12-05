@@ -1,0 +1,17 @@
+.product-item__header {
+  background-color: #f7f7f7;
+  img {
+    width: 100%;
+    mix-blend-mode: multiply;
+  }
+}
+
+.product-item__details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  span {
+    margin-left: 1em;
+  }
+}
