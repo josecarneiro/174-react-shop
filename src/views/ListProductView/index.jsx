@@ -5,7 +5,7 @@ import { listProducts } from './../../services/product';
 
 import './style.scss';
 
-class ListView extends Component {
+class ListProductView extends Component {
   constructor() {
     super();
     this.state = {
@@ -37,4 +37,4 @@ class ListView extends Component {
   }
 }
 
-export default ListView;
+export default ListProductView;

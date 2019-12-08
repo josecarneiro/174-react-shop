@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
-import './App.scss';
+import { BrowserRouter } from 'react-router-dom';
 
-import ListView from './views/ListView';
+import AppRoutes from './routes';
+
+import Navbar from './components/Navbar';
+
+import './App.scss';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ListView />
+        <BrowserRouter>
+          <Navbar />
+          <AppRoutes />
+        </BrowserRouter>
       </div>
     );
   }

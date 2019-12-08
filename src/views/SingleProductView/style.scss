@@ -1,0 +1,12 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  .product-item {
+    width: calc((100% - 2em) / 3);
+    margin-left: 1em;
+    margin-bottom: 1em;
+    &:nth-child(3n + 1) {
+      margin-left: 0;
+    }
+  }
+}
